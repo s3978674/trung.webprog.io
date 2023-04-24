@@ -1,0 +1,137 @@
+<!-- RMIT University Vietnam
+    Course: COSC2430 Web Programming
+    Semester: 2023A
+    Assessment: Assignment 1
+    Author: Nguyen Dang Thanh Trung 
+    ID: 3978674
+    Acknowledgement:https://uiverse.io/
+                    https://www.w3schools.com/
+                    https://css.glass/
+                    https://codepen.io/
+                    https://youtube.com
+                    https://stackoverflow.com -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style/global.css" />
+    <link rel="stylesheet" href="../style/index.css" />
+    <link rel="stylesheet" href="../style/contact-us.css" />
+    <title>Contact Us</title>
+    
+</head>
+
+<body>
+    <style>
+        body {
+          background-image: url('./../assets/room.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+          background-blend-mode: multiply;
+        }
+    </style>
+    <!-- Header -->
+    <header>
+        <div class="logo-container">
+            <a class="logo" href="../index.html"><img class="" src='../assets/billlogo.png'></a>
+        </div>
+
+        <!-- Hamburger icon -->
+        <input class="check-box" type="checkbox" id="check-box">
+        <label for="check-box" class="check-box-display"><span class="hamb-display"></span></label>
+        <!-- Navigation bar -->
+        <nav class="nav">
+            <ul class="menu">
+                <li><a href="../html/Fiction.html">Fiction</a></li>
+                <li><a href="../html/References.html">References</a></li>
+                <li><a href="../html/contact-us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Main -->
+    <main>
+        <form class="contact-form" method="get" action="">
+            <div class="contact-purpose">
+                <label for="contact-purpose">Contact purpose:</label>
+                <select name="contact-purpose" id="contact-purpose">
+                    <option value="sell-book">I want to sell books</option>
+                    <option value="buy-book">I want to buy books</option>
+                </select>
+            </div>
+
+            <div class="user-info">
+                <label for="user-name">Name:</label>
+                <input type="text" id="user-name" name="user-name" placeholder="Enter your name" />
+            </div>
+
+            <div class="user-info">
+                <label for="user-email">Email:</label>
+                <input type="text" id="user-email" name="user-email" placeholder="Enter your email" />
+            </div>
+
+            <div class="user-info">
+                <label for="phone-num">Phone:</label>
+                <input type="tel" id="phone-num" name="phone-num" placeholder="Enter your phone number" />
+            </div>
+
+            <div class="contact-preference">
+                <div class="checkbox-label">Contact preference:</div>
+                <div class="checkbox-container" id="checkbox-container">
+                    <div>
+                        <input type="checkbox" id="by-email" name="by-email" value="by-email" />
+                        <label for="by-email">By email</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="by-phone" name="by-phone" value="by-phone" />
+                        <label for="by-phone">By phone</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="newsletter">
+                <div for="radio-label">Receive weekly newsletter:</div>
+                <div class="radio-container" id="radio-container">
+                    <div>
+                        <input checked type="radio" id="yes" name="choices" value="yes" />
+                        <label for="yes">Yes</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="no" name="choices" value="no" />
+                        <label for="no">No</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="extra-note">
+                <label for="note">Extra notes:</label>
+                <textarea name="note" id="note" rows="7"></textarea>
+            </div>
+
+            <div class="button-container">
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <nav class="footer-nav">
+            <ul class="footer-container">
+                <li>About us</li>
+                <li>Privacy Policy</li>
+                <li>Terms & Condition</li>
+                <li>Copyright</li>
+                <li><a href="./contact-us.html">Contact us</a></li>
+            </ul>
+            <p style="display: flex; justify-content:center">
+                © Designed by Trung
+            </p>
+        </nav>
+    </footer>
+</body>
+
+</html>

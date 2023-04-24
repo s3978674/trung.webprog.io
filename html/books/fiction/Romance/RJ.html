@@ -1,0 +1,101 @@
+<!-- RMIT University Vietnam
+    Course: COSC2430 Web Programming
+    Semester: 2023A
+    Assessment: Assignment 1
+    Author: Nguyen Dang Thanh Trung 
+    ID: 3978674
+    Acknowledgement:https://uiverse.io/
+                    https://www.w3schools.com/
+                    https://css.glass/
+                    https://codepen.io/
+                    https://youtube.com
+                    https://stackoverflow.com -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../../../../style/global.css">
+    <link rel="stylesheet" href="./../../../../style/index.css">
+    <link rel="stylesheet" href="./../../../../style/bookpage.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo-container">
+            <a class="logo" href="../../../../index.html"><img class="" src='../../../../assets/billlogo.png'></a>
+        </div>
+
+        <!-- Hamburger icon -->
+        <input class="check-box" type="checkbox" id="check-box">
+        <label for="check-box" class="check-box-display"><span class="hamb-display"></span></label>
+        <!-- Navigation bar -->
+        <nav class="nav">
+            <ul class="menu">
+                <li><a href="./../../../../html/Fiction.html">Fiction</a></li>
+                <li><a href="./../../../../html/References.html">References</a></li>
+                <li><a href="./../../../../html/contact-us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Main -->
+    <main>
+        <section class="container">
+            <div class="slider-wrapper">
+                <div class="slider">
+                    <img id="slide-1" src="./RJ/2.jpg" alt="Sherlocks Holmes">
+                    <img id="slide-2" src="./RJ/3.jpg" alt="Sherlocks Holmes">
+                    <img id="slide-3" src="./RJ/4.jpg" alt="Sherlocks Holmes">
+                </div>
+                <div class="slider-nav">
+                    <a href="#slide-1"></a>
+                    <a href="#slide-2"></a>
+                    <a href="#slide-3"></a>
+                </div>
+            </div>
+            <div class="info">
+                <p class="title-up">
+                <p class="title-up"> <a href="../../../Fiction.html" class="title-up">Fiction</a> > Romance</p>
+                <h2>Romeo and Juliet</h2>
+                <h4>$17</h4>
+                <div class="section-fluid">
+                    <h4>Description</h4>
+                    <div class="description">
+                        <p>Romeo and Juliet is a tragedy written by William Shakespeare early in his career about the
+                            romance between two Italian youths from feuding families. It was among Shakespeare's most
+                            popular plays during his lifetime and, along with Hamlet, is one of his most frequently
+                            performed plays.</p>
+                    </div>
+                    <div style="width: 100%;display: flex; justify-content: center">
+                        <button>Add To Cart</button>
+                    </div>
+                    <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/tSfExfrP1oI"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <nav class="footer-nav">
+            <ul class="footer-container">
+                <li>About us</li>
+                <li>Privacy Policy</li>
+                <li>Terms & Condition</li>
+                <li>Copyright</li>
+                <li><a href="../../../contact-us.html">Contact us</a></li>
+            </ul>
+            <p style="display: flex; justify-content:center">
+                © Designed by Trung
+            </p>
+        </nav>
+    </footer>
+</body>
+
+</html>

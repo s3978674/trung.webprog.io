@@ -1,0 +1,100 @@
+<!-- RMIT University Vietnam
+    Course: COSC2430 Web Programming
+    Semester: 2023A
+    Assessment: Assignment 1
+    Author: Nguyen Dang Thanh Trung 
+    ID: 3978674
+    Acknowledgement:https://uiverse.io/
+                    https://www.w3schools.com/
+                    https://css.glass/
+                    https://codepen.io/
+                    https://youtube.com
+                    https://stackoverflow.com -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../../style/global.css">
+    <link rel="stylesheet" href="../../../../style/index.css">
+    <link rel="stylesheet" href="../../../../style/bookpage.css">
+    <title>Coffee Atlas</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo-container">
+            <a class="logo" href="../../../../index.html"><img class="" src='../../../../assets/billlogo.png'></a>
+        </div>
+
+        <!-- Hamburger icon -->
+        <input class="check-box" type="checkbox" id="check-box">
+        <label for="check-box" class="check-box-display"><span class="hamb-display"></span></label>
+        <!-- Navigation bar -->
+        <nav class="nav">
+            <ul class="menu">
+                <li><a href="../../../../html/Fiction.html">Fiction</a></li>
+                <li><a href="../../../../html/References.html">References</a></li>
+                <li><a href="../../../../html/contact-us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Main -->
+    <main>
+        <section class="container">
+            <div class="slider-wrapper">
+                <div class="slider">
+                    <img id="slide-1" src="./cf/1.jpg" alt="Coffee Atlas">
+                    <img id="slide-2" src="./cf/2.jpg" alt="Coffee Atlas">
+                    <img id="slide-3" src="./cf/3.jpg" alt="Coffee Atlas">
+                </div>
+                <div class="slider-nav">
+                    <a href="#slide-1"></a>
+                    <a href="#slide-2"></a>
+                    <a href="#slide-3"></a>
+                </div>
+            </div>
+            <div class="info">
+                <p class="title-up"> <a href="../../../References.html" class="title-up">Reference</a> > Atlas</p>
+                <h2>Coffee Atlas</h2>
+                <h4>$17</h4>
+                <div class="section-fluid">
+                    <h4>Description</h4>
+                    <div class="description">
+                        <p>The World Atlas of Coffee presents the bean in full-color photographs and concise,
+                            informative text. It shows the origins of coffee -- where it is grown, the people who grow
+                            it; and the cultures in which coffee is a way of life -- and the world of consumption --
+                            processing, grades, the consumer and the modern culture of coffee.</p>
+                    </div>
+                    <div style="width: 100%;display: flex; justify-content: center">
+                        <button>Add To Cart</button>
+                    </div>
+                    <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/aOUs67rP1Xg"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <nav class="footer-nav">
+            <ul class="footer-container">
+                <li>About us</li>
+                <li>Privacy Policy</li>
+                <li>Terms & Condition</li>
+                <li>Copyright</li>
+                <li><a href="../../../contact-us.html">Contact us</a></li>
+            </ul>
+            <p style="display: flex; justify-content:center">
+                © Designed by Trung
+            </p>
+        </nav>
+    </footer>
+</body>
+
+</html>

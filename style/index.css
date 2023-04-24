@@ -1,0 +1,59 @@
+/* RMIT University Vietnam
+  Course: COSC2430 Web Programming
+  Semester: 2023A
+  Assessment: Assignment 1
+  Author: Nguyen Dang Thanh Trung 
+  ID: 3978674
+  Acknowledgement:https://uiverse.io/
+                  https://www.w3schools.com/
+                  https://css.glass/
+                  https://codepen.io/
+                  https://youtube.com
+                  https://stackoverflow.com */
+.category-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.category-container h1 {
+  margin: 50px;
+  padding: 20px;
+  background: rgba(219, 71, 12, 0.31);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  border: 2px solid rgb(158, 126, 99);
+}
+
+.category {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  padding: 50px;
+}
+
+.book-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 10px;
+}
+
+.book-name {
+  padding: 10px;
+}
+
+@media (max-width: 960px) {
+  .category {
+    flex-wrap: wrap;
+  }
+
+  .book {
+    width: 180px;
+  }
+}
